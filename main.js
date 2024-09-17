@@ -18,10 +18,6 @@ const startGame = () => {
     pipe.style.opacity = "1";
     clouds.style.opacity = "1";
 }
-
-
-
-
 const jump = () => {
     if(gameStarted) {
         mario.classList.add("jump");
